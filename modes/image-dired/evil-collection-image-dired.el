@@ -47,7 +47,7 @@
     (kbd "RET") 'image-dired-display-thumbnail-original-image
 
     "c" 'image-dired-comment-thumbnail
-    "d" 'image-dired-thumbnail-set-image-description
+    "d" 'image-dired-flag-thumb-original-file
     "m" 'image-dired-mark-thumb-original-file
     "u" 'image-dired-unmark-thumb-original-file
     "D" 'image-dired-delete-char
