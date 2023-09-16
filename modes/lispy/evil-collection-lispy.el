@@ -570,7 +570,6 @@ Copy of `noc:lispy-delete'."
     (lispy-define-key map "C-K" 'lispy-outline-prev)
     (lispy-define-key map "^" 'lispy-splice-sexp-killing-backward)
     (lispy-define-key map "$" 'lispy-splice-sexp-killing-forward)
-    (lispy-define-key map "M-j" 'lispy-move-down) ;; `lispy-split'
     (lispy-define-key map "M-k" 'lispy-move-up) ;; `lispy-kill-sentence'
     map)
   "`evil' flavored `lispy' bindings when in special state.")
